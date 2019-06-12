@@ -10,6 +10,7 @@ import java.util.Map;
 /**
  * Created by Administrator on 2019-06-12.
  */
+@Mapper
 public interface TestDao {
 //    @Select("select * from menu")
     List<Map> test();
